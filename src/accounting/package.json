@@ -1,0 +1,31 @@
+{
+  "name": "student-account-management-system",
+  "version": "2.0.0",
+  "description": "Student Account Management System - Node.js version of legacy COBOL application",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": {
+    "account-system": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --inspect index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "accounting",
+    "banking",
+    "student-accounts",
+    "ledger",
+    "cobol-migration"
+  ],
+  "author": "samikshasahu2017",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
